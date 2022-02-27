@@ -24,7 +24,29 @@ function App() {
             width:6,
             color:"#f9ab00"
           }
-        }
+        },
+        size: {
+            random: true,
+            value: 5,
+        },
+        opacity: {
+            value: 0.5,
+        },
+        move: {
+            direction: "none",
+            enable: true,
+            outMode: "bounce",
+            random: true,
+            speed: 6,
+            straight: false,
+          },
+          links: {
+            color: "#ffffff",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+          },
         
 
       }
