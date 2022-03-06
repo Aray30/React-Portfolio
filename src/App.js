@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Particles from "react-tsparticles";
 import Aboutme from "./components/Aboutme";
 import Services from "./components/Services";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
   <Header />
   <Aboutme/>
   <Services/>
+  <Experience/>
   </>
   );
 }
