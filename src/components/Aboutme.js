@@ -19,9 +19,13 @@ const aboutme = () => {
                 <p>
                 Hello my name is Aaron, 
 
-                Sportacus andrew weatherall goose Refined gentlemen super mario des lynam alpha trion zap rowsdower.
-                omar sharif old man in pub burt reynolds alpha trion sportacus villain Refined gentlemen zap rowsdower funny walk super mario frightfully nice.
-                andrew weatherall des lynam goose. Semi beard cream bun disaster alpha trion?
+                If soomeone would've told me I would go from being Army Ranger to playing semi-pro ball to a software engineer, I wouldnt believe them.
+                However,just like HTML, CSS and JavaScript have their own unique characteristics that are important in the creation of a webpage.
+                My current and previous careers have helped me become a proficient, effective and appealing web developer.
+                
+                Considering my significant programming experience and recent certification through NuCamp I completed in software development .
+                 I am confident I have the skills to make your website dream a reality.I am very knowledgeable in HTML,CSS, JavaScript,React Native and React.
+                
                 </p>
             
             </div>
