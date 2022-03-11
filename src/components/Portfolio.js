@@ -7,7 +7,7 @@ import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 //  React Popup Box //
-import {popupboxManager} from 'reactjs-popup';
+import {PopupboxManager} from 'reactjs-popup';
 
 
 
@@ -35,29 +35,27 @@ const Portfolio = () => {
             <h1 className="text-uppercase text-center py-5">Portfolio</h1>
             <div className="image-box-wrapper row justify-content-center">
                 <div className='portfolio-image-box'>
-                    </div>
-                <img className="portfolio-image" src={Nucamp} alt="NuCamp RV"/>
+                    <img className="portfolio-image" src={Nucamp} alt="NuCamp RV"/>
                     <div className='overflow'></div>
-                    <FontAwesomeIcon className='portfolio-icon ' icon={faSearchPlus} />
-            </div>
-            {/** */}
-            <div className="image-box-wrapper row justify-content-center">
-            <div className='portfolio-image-box'></div>
-                <img className="portfolio-image" src={Nucamp} alt="NuCamp RV"/>
-                <div className='overflow'></div>
-                <FontAwesomeIcon className='portfolio-icon ' icon={faSearchPlus} />
-                
+                    <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                </div>
 
-            </div>
-            {/** */}
-            <div className="image-box-wrapper row justify-content-center">
-            <div className='portfolio-image-box'></div>
-                <img className="portfolio-image" src={Nucamp} alt="NuCamp RV"/>
-                <div className='overflow'></div>
-                <FontAwesomeIcon className='portfolio-icon ' icon={faSearchPlus} />
+                {/* - */}
 
-            </div>
+                <div className='portfolio-image-box'>
+                    <img className="portfolio-image" src={Nucamp} alt="NuCamp RV"/>
+                    <div className='overflow'></div>
+                    <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                </div>
 
+                {/* - */}
+
+                <div className='portfolio-image-box'>
+                    <img className="portfolio-image" src={Nucamp} alt="NuCamp RV"/>
+                    <div className='overflow'></div>
+                    <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                </div>
+            </div>
         </div>
     </div>
   )

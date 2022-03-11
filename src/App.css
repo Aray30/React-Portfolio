@@ -410,9 +410,10 @@ text-transform: uppercase;
   padding:0 0 5rem;
 }
 
-.portfolio-image-box{
+.row .portfolio-image-box{
    position: relative;
    margin: 1rem;
+   width: auto;
 }
 
 /**************************OverFlow  *******************************/
