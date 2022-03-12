@@ -280,18 +280,18 @@ text-transform: uppercase;
   transition: 0.3 ease-in-out;
 }
 
-.services .box :hover{
+.services .box:hover{
   background: var(--primary--orange);
   border-bottom:0.3125rem solid var(--primary--dark);
 }
 
 
-.services .box :hover .icon{
+.services .box:hover .icon{
   color: var(--primary--dark);
 }
 
 
-.services .box :hover .circle{
+.services .box:hover .circle{
   color: var(--primary--white);
 }
 
@@ -404,6 +404,10 @@ text-transform: uppercase;
   padding: 3rem 0;
 }
 
+.portfolio-wrapper h1{
+  color: var(--primary--orange);
+}
+
 .portfolio-image{
   width: 15rem;
   border: 1px solid var(--primary--orange);
@@ -429,7 +433,7 @@ text-transform: uppercase;
 }
 
 
-.portfolio-image-box :hover .overflow{
+.portfolio-image-box:hover.overflow{
   opacity: 60%;
   transition: 0.3s ease-in-out;
 }
@@ -444,8 +448,32 @@ text-transform: uppercase;
   
 }
 
-.portfolio-image-box :hover .portfolio-icon{
+.portfolio-image-box:hover.portfolio-icon{
   opacity: 70;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+/**************************OverFlow  *******************************/
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  color: var(--primary--orange);
+  cursor: pointer;
+}
+
+.hyper-link:hover {
+  color: var(--primary--red);
+}
+
+
+/**************************Media *****************************/
+@media(max-width: 768px) {
+  .portfolio-image-popupbox{
+    width: 100;
+  }
 }
