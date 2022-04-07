@@ -61,13 +61,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Name"
                   name="Name"
-                  ref={register({
-                    required: "Please enter Name",
-                    maxLength: {
-                      value: 20,
-                      message: "Please enter a name with fewer than 20 characters"
-                    }
-                  })}
+                  {...register('name', { required: "Please enter Name", maxLength: {value: 20, message: "Please enter a name with fewer than 20 characters"} })}
                   />
                   <div className="line"></div>
                 </div>
