@@ -10,12 +10,12 @@ import avatar4 from "../images/avatar-4.png";
 
 const TestimonialsCarousel = () => {
   return (
-    <Carousel
+    <Carousel autoPlay={true} interval={5000} infiniteLoop
         
     >
         <>
         <img src={avatar1} alt="John Doe 1"/>
-        <div className='myCarousel'>
+        <div className='mycarousel'>
         <h3>John Doe 1</h3>
         <p>Sportacus andrew weatherall goose Refined gentlemen super mario des lynam alpha trion zap rowsdower.
                 omar sharif old man in pub burt reynolds alpha trion sportacus villain Refined gentlemen zap rowsdower funny walk super mario frightfully nice.
@@ -28,7 +28,7 @@ const TestimonialsCarousel = () => {
 
         <>
         <img src={avatar2} alt="Jane Doe 2"/>
-        <div className='myCarousel'>
+        <div className='mycarousel'>
         <h3>John Doe 1</h3>
         <p>Sportacus andrew weatherall goose Refined gentlemen super mario des lynam alpha trion zap rowsdower.
                 omar sharif old man in pub burt reynolds alpha trion sportacus villain Refined gentlemen zap rowsdower funny walk super mario frightfully nice.
@@ -38,7 +38,7 @@ const TestimonialsCarousel = () => {
         </>
         <>
         <img src={avatar3} alt="John Doe 3"/>
-        <div className='myCarousel'>
+        <div className='mycarousel'>
         <h3>John Doe 1</h3>
         <p>Sportacus andrew weatherall goose Refined gentlemen super mario des lynam alpha trion zap rowsdower.
                 omar sharif old man in pub burt reynolds alpha trion sportacus villain Refined gentlemen zap rowsdower funny walk super mario frightfully nice.
@@ -48,7 +48,7 @@ const TestimonialsCarousel = () => {
         </>
         <>
         <img src={avatar4} alt="John Doe 4"/>
-        <div className='myCarousel'>
+        <div className='mycarousel'>
         <h3>John Doe 1</h3>
         <p>Sportacus andrew weatherall goose Refined gentlemen super mario des lynam alpha trion zap rowsdower.
                 omar sharif old man in pub burt reynolds alpha trion sportacus villain Refined gentlemen zap rowsdower funny walk super mario frightfully nice.

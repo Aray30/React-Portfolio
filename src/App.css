@@ -105,7 +105,7 @@ text-transform: uppercase;
 }
 
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary--orange);
 }
 
@@ -121,7 +121,7 @@ text-transform: uppercase;
   background : url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 
@@ -544,13 +544,13 @@ text-transform: uppercase;
   padding: 3rem 0;
 }
 
-.contact h1{
+.contacts h1{
   color: var(--primary--orange);
   padding: 1.3rem 0; 
 }
 
 .contacts p {
-  color:var(--primary-light-grey);
+  color:var(--primary--white);
   font-size: 1.2rem;
 }
 
@@ -619,4 +619,24 @@ textarea.form-control{
   .contact .container {
     padding: 0 1rem;
   }
+}
+
+
+
+/**************************Footer *******************************/
+.footer {
+  background: var(--primary--black);
+  color: var(--primary--dark--grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color:var(--primary--dark--grey);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color:var(--primary--orange);
+  cursor: pointer;
 }

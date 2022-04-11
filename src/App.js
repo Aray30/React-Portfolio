@@ -10,6 +10,8 @@ import Portfolio from "./components/Portfolio";
 import testimonials from "./components/Testimonials";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -69,6 +71,7 @@ function App() {
   <Portfolio />
   <Testimonials/>
   <Contacts/>
+  <Footer/>
  
 
   </>
