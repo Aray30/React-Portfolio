@@ -8,7 +8,7 @@ import avatar2 from "../images/avatar-2.png";
 import avatar3 from "../images/avatar-3.png";
 import avatar4 from "../images/avatar-4.png";
 
-const TestimonialsCarousel = () => {
+const TestimonialsCarousel = () => { 
   return (
     <Carousel autoPlay={true} interval={5000} infiniteLoop
         
